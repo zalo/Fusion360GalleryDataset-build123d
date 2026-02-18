@@ -23,16 +23,23 @@ Models are bundled into batch files organized by complexity (timeline operation 
 
 Each batch file contains up to ~200 models and stays under 5,000 lines. Every batch file is self-contained and executable.
 
+Each batch also includes a **contact sheet** (`batch_NNN_contact_sheet.png`) showing 128x128 thumbnails of all models in a square grid:
+
+![Contact sheet example](01_2ops/batch_018_contact_sheet.png)
+
 ## Batch File Format
 
 Each batch file contains:
 
 1. **Merged imports** from all models in the batch
-2. **Model functions** (`def model_XXXXX():`) that build geometry and return a `TopoDS_Shape`
+2. **Model functions** (`def model_XXXXX():`) with a `# Description:` comment and a docstring
 3. **`MODELS` dict** mapping function names to expected volume and area
 4. **`__main__` block** that validates each model against expected measurements
 
+Every model function has a visual description comment generated from a rendered screenshot:
+
 ```python
+# Description: A flat rectangular plate with rounded corners and four mounting holes near each corner.
 def model_100221_4d7b66c4_0003():
     """Model: Gause Wrap"""
     with BuildPart() as part:
