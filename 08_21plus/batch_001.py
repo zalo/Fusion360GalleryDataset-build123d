@@ -12,6 +12,7 @@ from OCP.TColgp import TColgp_Array1OfPnt
 from OCP.gp import gp_Pnt
 
 
+# Description: This is a horizontal aerospace or marine component with a streamlined, elongated shape featuring a raised central hub, tapered ends, and blue accent striping along the wings or flanges.
 def model_113355_e82de238_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -348,6 +349,7 @@ def model_113355_e82de238_0000():
     return part.part
 
 
+# Description: This is a sheet metal bracket or frame assembly with an angular, open-sided design featuring a central horizontal base, two vertical flanges on opposing sides, and a triangulated internal bracing structure for rigidity.
 def model_121701_05cb78e4_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -642,6 +644,7 @@ def model_121701_05cb78e4_0000():
     return part.part
 
 
+# Description: This is a complex geometric bracket or mounting component featuring an irregular polyhedron shape with angular faceted surfaces, internal geometric framework, a rectangular opening or slot, and a protruding base or foot element for attachment or mounting purposes.
 def model_122019_3a524981_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -862,6 +865,7 @@ def model_122019_3a524981_0000():
     return part.part
 
 
+# Description: This is a structural assembly or bracket component featuring an elongated body with two large cylindrical bosses (one at each end), connected by a truss-latticed framework with triangular bracing, designed for load distribution and structural rigidity.
 def model_132294_69821e40_0000():
     """Model: Untitled"""
     def _nurbs_edge(ctrl_pts, weights, knots, degree):
@@ -1408,6 +1412,7 @@ def model_132294_69821e40_0000():
     return part.part
 
 
+# Description: This is a stepped pyramidal or wedge-shaped mechanical part featuring a series of horizontal rectangular slots or steps that progressively decrease in size from bottom to top, creating a tiered, fan-like profile when viewed from the side.
 def model_132447_7c00b7da_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1556,6 +1561,7 @@ def model_132447_7c00b7da_0000():
     return part.part
 
 
+# Description: A modular solar panel array assembly consisting of five rectangular photovoltaic panels with textured surfaces arranged in a clustered configuration, accompanied by a separate black mounting bracket or connector component.
 def model_134072_a64e5fc0_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1871,6 +1877,7 @@ def model_134072_a64e5fc0_0000():
     return part.part
 
 
+# Description: This is a bracket or mounting component with a roughly trapezoidal/wedge-shaped body featuring a flat mounting base, angled support arm, and a rectangular slot or opening on the upper section for attachment or assembly purposes.
 def model_134579_efc1d669_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2061,6 +2068,7 @@ def model_134579_efc1d669_0000():
     return part.part
 
 
+# Description: This is a complex polyhedral geometric solid featuring multiple faceted surfaces with angular protrusions and recessed pyramidal elements, characterized by an irregular, fragmented crystalline-like structure with both convex and concave geometric features.
 def model_134924_4c5e911a_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2136,6 +2144,7 @@ def model_134924_4c5e911a_0000():
     return part.part
 
 
+# Description: This is a drill bit or twist drill, characterized by a long, cylindrical shaft with a helical flute pattern and a pointed conical tip for boring holes into materials.
 def model_138125_431e6a10_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2373,6 +2382,7 @@ def model_138125_431e6a10_0000():
     return part.part
 
 
+# Description: This is a sheet metal or plastic enclosure/housing with an elongated rectangular base, a tall angled back panel, and integrated ribbing and flanges designed for structural rigidity and component mounting.
 def model_138539_b5a9ff56_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2835,6 +2845,7 @@ def model_138539_b5a9ff56_0000():
     return part.part
 
 
+# Description: This is an airship or blimp envelope structure featuring an elongated, streamlined fusiform (torpedo-like) body with a latticed or wireframe upper surface, a solid lower section, and a vertical stabilizer fin protruding from the rear.
 def model_139750_18e8f39b_0000():
     """Model: Untitled"""
     def _nurbs_edge(ctrl_pts, weights, knots, degree):
@@ -2982,6 +2993,7 @@ def model_139750_18e8f39b_0000():
     return part.part
 
 
+# Description: This is a dual-cylinder mounting bracket with a rectangular base frame featuring two parallel cylindrical posts that angle upward, designed to support or secure components between the two vertical shafts.
 def model_141845_2c9bd259_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3134,6 +3146,7 @@ def model_141845_2c9bd259_0000():
     return part.part
 
 
+# Description: This is a stepped shaft or spindle with a cylindrical body that tapers to a smaller diameter at one end, featuring a pointed or conical tip.
 def model_142842_736420da_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3292,6 +3305,7 @@ def model_142842_736420da_0000():
     return part.part
 
 
+# Description: This is a CubeSat deployment mechanism or structural component consisting of two stacked cubic frames with cross-braced panels and mounting points, designed for modular satellite assembly with corner attachment holes and internal reinforcement ribs.
 def model_143025_16ccf8cb_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3425,6 +3439,7 @@ def model_143025_16ccf8cb_0000():
     return part.part
 
 
+# Description: This is a compact drone or quadcopter featuring a dark blue central body with four extended arms terminating in propeller motors, integrated cable routing along the arms, and a modular design with visible internal structural elements.
 def model_143262_9b4e4d19_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3883,6 +3898,7 @@ def model_143262_9b4e4d19_0000():
     return part.part
 
 
+# Description: This is a dark blue parallelogram-shaped box or container with slanted sides, featuring a hollow interior with open top and bottom, and triangular cutouts or slots visible on the upper right and lower left edges.
 def model_145201_a104c55b_0005():
     """Model: 1. etg"""
     with BuildPart() as part:
@@ -4100,6 +4116,7 @@ def model_145201_a104c55b_0005():
     return part.part
 
 
+# Description: This is a flat-bottomed angular bracket or mounting plate with a distinctive arrow-like or chevron shape, featuring a protruding arm on the left, a recessed base section, and internal ribbing or web structures for structural reinforcement.
 def model_21339_4c044144_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4260,6 +4277,7 @@ def model_21339_4c044144_0000():
     return part.part
 
 
+# Description: A hollow cylindrical body with a mesh or perforated top cap and vertical ribbed/fluted side walls, designed as an air or liquid filter element.
 def model_22062_2d6b3b72_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4274,6 +4292,7 @@ def model_22062_2d6b3b72_0000():
     return part.part
 
 
+# Description: A dark blue parallelogram-shaped flat plate with a slightly trapezoidal profile, featuring small mounting holes or attachment points.
 def model_23325_292b3294_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4466,6 +4485,7 @@ def model_23325_292b3294_0000():
     return part.part
 
 
+# Description: This is a folding stairs or step ladder assembly featuring a rigid frame with four rectangular rungs, a triangular support brace on the left side, and a hinged design that allows the ladder to collapse for compact storage.
 def model_23365_696893ff_0000():
     """Model: Untitled"""
     with BuildPart() as part:

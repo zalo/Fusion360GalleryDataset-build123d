@@ -5,6 +5,7 @@
 from build123d import *
 
 
+# Description: This is a flat parallelogram or skewed rectangular plate with four straight edges and no holes, slots, or other features—a simple geometric shape rendered in 3D with edge thickness or beveled borders.
 def model_28446_d757d32d_0017():
     """Model: gumaDrzwiLodowka v6"""
     with BuildPart() as part:
@@ -164,6 +165,7 @@ def model_28446_d757d32d_0017():
     return part.part
 
 
+# Description: This is a black and blue protective guard or shroud with an elongated, streamlined body featuring curved sides, a tapered front end, and ventilation slots or openings along the top surface.
 def model_28934_b02386fd_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -283,6 +285,7 @@ def model_28934_b02386fd_0000():
     return part.part
 
 
+# Description: This is a curved bracket or housing component with an angular, boomerang-like shape featuring ribbed reinforcement sections, internal cavities or passages (shown in blue), and a cylindrical protrusion on the right end.
 def model_31360_a1accb4b_0002():
     """Model: Crank_Web"""
     with BuildPart() as part:
@@ -465,6 +468,7 @@ def model_31360_a1accb4b_0002():
     return part.part
 
 
+# Description: This is a folded metal bracket or stand with a angular, tent-like shape featuring two primary dark blue/navy vertical panels connected by internal ribs and bracing, with circular holes and rectangular cutouts visible on the upper surfaces for mounting or assembly purposes.
 def model_31667_a38ff7b3_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -651,6 +655,7 @@ def model_31667_a38ff7b3_0000():
     return part.part
 
 
+# Description: This is a three-way pipe junction or T-fitting connector with a main horizontal body and two angled branch arms extending downward, featuring hollow cylindrical passages for fluid or gas flow.
 def model_34317_e9c65aa6_0015():
     """Model: Pillar2 v8"""
     with BuildPart() as part:
@@ -812,6 +817,7 @@ def model_34317_e9c65aa6_0015():
     return part.part
 
 
+# Description: This is a hydraulic or pneumatic valve body featuring a symmetrical, elongated shape with cylindrical ports on both ends, a central rectangular cavity or spool chamber, and a compact, robust design typical of directional control valves or proportional valve manifolds.
 def model_36088_1ea9c8a9_0003():
     """Model: Shaft"""
     with BuildPart() as part:
@@ -1048,6 +1054,7 @@ def model_36088_1ea9c8a9_0003():
     return part.part
 
 
+# Description: This is a pipe assembly or connector component featuring a central cylindrical body with rounded ends, two circular flanges (one larger in the center, one smaller on the right), and mounting holes or ports distributed along its length.
 def model_36920_08b32825_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1219,6 +1226,7 @@ def model_36920_08b32825_0000():
     return part.part
 
 
+# Description: This is a spacecraft or capsule module with a roughly cubic body, featuring a domed/rounded top section, multiple window or viewport openings on the sides, and an asymmetrical design suggesting it's an orbital or re-entry vehicle component.
 def model_38757_2c865215_0008():
     """Model: 1 Cuerpo"""
     with BuildPart() as part:
@@ -1446,6 +1454,7 @@ def model_38757_2c865215_0008():
     return part.part
 
 
+# Description: This is a linear actuator or slide rail assembly featuring a compact rectangular head with mounting features at one end and a long cylindrical shaft extending from it, designed for linear motion or positioning applications.
 def model_48907_25974aa4_0011():
     """Model: right frame v1"""
     with BuildPart() as part:
@@ -1588,6 +1597,7 @@ def model_48907_25974aa4_0011():
     return part.part
 
 
+# Description: This is a dual-monitor mounting bracket or antenna assembly featuring two rectangular blue housings with protruding cylindrical posts/antennas extending from multiple angles, designed for vertical or adjustable stacking configuration.
 def model_49896_6387ac02_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1973,6 +1983,7 @@ def model_49896_6387ac02_0000():
     return part.part
 
 
+# Description: This is a sheet metal bracket or duct component with a curved, elongated body featuring two perpendicular flat flanges at each end and internal ribbing or support structures for reinforcement.
 def model_52221_3cdb5865_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2236,6 +2247,7 @@ def model_52221_3cdb5865_0000():
     return part.part
 
 
+# Description: This is a cross-shaped connector or manifold block featuring four cylindrical ports extending from a central hub, with internal passages visible through translucent rendering and a fifth angled port protruding from the top.
 def model_54273_21c2b38f_0019():
     """Model: core v6"""
     with BuildPart() as part:
@@ -2370,6 +2382,7 @@ def model_54273_21c2b38f_0019():
     return part.part
 
 
+# Description: This is a motor mounting bracket or connector assembly featuring a cylindrical motor housing on the left, a central blue rectangular body with mounting provisions, and extended cylindrical sleeves on the right, designed to interface and secure a motor to a larger mechanical system.
 def model_55556_429d33b3_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2536,6 +2549,7 @@ def model_55556_429d33b3_0000():
     return part.part
 
 
+# Description: This is a rifle or firearm stock assembly with a rectangular receiver body, trigger guard opening, and angled buttstock extension, featuring a mounting rail on top and a separate small cylindrical component.
 def model_57629_0877c022_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2618,6 +2632,7 @@ def model_57629_0877c022_0000():
     return part.part
 
 
+# Description: This is a multi-chambered aluminum or composite housing/manifold block with a rectangular overall shape featuring multiple internal compartments, access ports, and mounting flanges designed for fluid distribution or component integration.
 def model_60747_5e38b665_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2782,6 +2797,7 @@ def model_60747_5e38b665_0000():
     return part.part
 
 
+# Description: This is a multi-chambered cooling or ventilation component with a rectangular overall shape featuring internal dividers/baffles, multiple open passages or slots, and a curved top section, designed to direct airflow through distinct channels.
 def model_63411_46a912fc_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2964,6 +2980,7 @@ def model_63411_46a912fc_0000():
     return part.part
 
 
+# Description: This is a boat hull or marine vessel component featuring an angular, asymmetrical design with a tapered bow section, internal structural ribbing and bracing, a recessed cabin area with an open framework, and a stepped or sloped transom stern.
 def model_65810_620a5516_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3271,6 +3288,7 @@ def model_65810_620a5516_0000():
     return part.part
 
 
+# Description: This is a laptop stand or document holder featuring a hinged design with a dark upper panel and a light blue lower base platform, allowing adjustable angle positioning for viewing or work surfaces.
 def model_66233_25aede4b_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3530,6 +3548,7 @@ def model_66233_25aede4b_0000():
     return part.part
 
 
+# Description: This is a flat, rectangular base plate with an integrated upper structure featuring multiple vertical posts, angled supports, and internal ribbing that creates a skeletal framework with geometric cutouts and slots throughout the design.
 def model_69057_8b7468bb_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3752,6 +3771,7 @@ def model_69057_8b7468bb_0000():
     return part.part
 
 
+# Description: This is a rectangular protective case or housing with rounded corners, featuring a flat top surface, curved side edges, and what appears to be a recessed slot or mounting feature on the left side.
 def model_92034_24dd7722_0000():
     """Model: Untitled"""
     with BuildPart() as part:

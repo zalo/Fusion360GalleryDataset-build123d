@@ -12,6 +12,7 @@ from OCP.TColgp import TColgp_Array1OfPnt
 from OCP.gp import gp_Pnt
 
 
+# Description: This is a curved channel or duct component with a U-shaped cross-section, featuring cylindrical end flanges on both sides, a slotted or ribbed interior surface, and a smooth exterior bend that curves upward in the middle.
 def model_25399_5e678d71_0000():
     """Model: ROCKER"""
     with BuildPart() as part:
@@ -68,6 +69,7 @@ def model_25399_5e678d71_0000():
     return part.part
 
 
+# Description: This is an oval or elliptical dome-shaped component with a smooth, curved surface and radiating ridge or rib patterns running from the center toward the edges, featuring a wireframe mesh overlay indicating its 3D geometry.
 def model_25416_93d169f7_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -82,6 +84,7 @@ def model_25416_93d169f7_0000():
     return part.part
 
 
+# Description: This is a blue and dark gray polymer or composite blade/fin component with a streamlined, curved aerodynamic profile featuring a tapered pointed end and a broader rectangular base section.
 def model_25432_1e61aab2_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -110,6 +113,7 @@ def model_25432_1e61aab2_0000():
     return part.part
 
 
+# Description: This is a simple straight rod or cylindrical shaft with a uniform diameter, tapered slightly at the ends, oriented diagonally in 3D space.
 def model_25436_61a7f978_0000():
     """Model: Wire v1"""
     with BuildPart() as part:
@@ -124,6 +128,7 @@ def model_25436_61a7f978_0000():
     return part.part
 
 
+# Description: This is a parallelogram-shaped structural frame or bracket with a hollow center, featuring four corner posts connected by flat sides and internal diagonal bracing for rigidity.
 def model_25436_61a7f978_0002():
     """Model: Gate"""
     with BuildPart() as part:
@@ -157,6 +162,7 @@ def model_25436_61a7f978_0002():
     return part.part
 
 
+# Description: This is a hexahedral (box-like) polyhedron with an irregular, trapezoidal footprint, featuring a tapered or wedge-shaped profile with multiple faceted surfaces and what appears to be internal geometry or voids on the left side.
 def model_25474_5422a377_0009():
     """Model: WPUST_2 v4"""
     with BuildPart() as part:
@@ -176,6 +182,7 @@ def model_25474_5422a377_0009():
     return part.part
 
 
+# Description: This is a hexagonal or wedge-shaped block with a complex faceted geometry featuring multiple angled surfaces, an internal cavity or depression on the left side, and a tapered profile that transitions from a narrower left end to a wider right end.
 def model_25474_5422a377_0018():
     """Model: WPUST_1 v3"""
     with BuildPart() as part:
@@ -195,6 +202,7 @@ def model_25474_5422a377_0018():
     return part.part
 
 
+# Description: This is a cylindrical container or drum with a curved body and a flat or slightly angled top surface featuring a grid-like pattern or panel design.
 def model_25484_9b17990a_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -214,6 +222,7 @@ def model_25484_9b17990a_0000():
     return part.part
 
 
+# Description: This is a cylindrical component with a hollow bore and internal spiral or helical groove features running along its length, featuring a flat circular base on one end.
 def model_26245_4aac38e1_0000():
     """Model: Hilt-C"""
     with BuildPart() as part:
@@ -228,6 +237,7 @@ def model_26245_4aac38e1_0000():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated drum component with a solid circular end plate and an open latticed side structure, featuring a grid-pattern surface design typical of filtering, ventilation, or containment applications.
 def model_26245_4aac38e1_0001():
     """Model: Hilt-A"""
     with BuildPart() as part:
@@ -247,6 +257,7 @@ def model_26245_4aac38e1_0001():
     return part.part
 
 
+# Description: This is a tapered cylindrical rod or pin with a long, slender conical shape that gradually decreases in diameter from one end to the other.
 def model_26245_4aac38e1_0003():
     """Model: CurrentToMotor"""
     with BuildPart() as part:
@@ -267,6 +278,7 @@ def model_26245_4aac38e1_0003():
     return part.part
 
 
+# Description: This is a curved deflector or trim panel with a wavy, concave profile featuring raised flanges on both ends and a central scalloped cutout, designed for aerodynamic or aesthetic purposes in an automotive application.
 def model_26261_5deaf75a_0001():
     """Model: stretcher"""
     def _nurbs_edge(ctrl_pts, weights, knots, degree):
@@ -311,6 +323,7 @@ def model_26261_5deaf75a_0001():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter sleeve with a solid base and an open, textured top end, featuring a uniform hollow tube structure with vertical ribbing or corrugation patterns along its sides.
 def model_26384_83eddf22_0009():
     """Model: Crankpin v2"""
     with BuildPart() as part:
@@ -325,6 +338,7 @@ def model_26384_83eddf22_0009():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter tube with rounded ends and a slightly tapered top opening, designed for fluid filtration or straining applications.
 def model_26384_83eddf22_0011():
     """Model: Gudgeon Pin v3"""
     with BuildPart() as part:
@@ -339,6 +353,7 @@ def model_26384_83eddf22_0011():
     return part.part
 
 
+# Description: This is a cylindrical rod or tube with a long, slender shape and rounded ends, featuring a uniform diameter throughout its length.
 def model_26384_83eddf22_0015():
     """Model: Tommy Bar v3"""
     with BuildPart() as part:
@@ -353,6 +368,7 @@ def model_26384_83eddf22_0015():
     return part.part
 
 
+# Description: This is a cylindrical tube or pipe with a hollow circular cross-section, featuring a straight elongated body with slightly rounded ends and a uniform diameter throughout its length.
 def model_26384_83eddf22_0020():
     """Model: Stud v3"""
     with BuildPart() as part:
@@ -367,6 +383,7 @@ def model_26384_83eddf22_0020():
     return part.part
 
 
+# Description: This is a hexagonal or octagonal box-shaped enclosure with a flat base, angled side walls, and a faceted top structure featuring multiple triangular and trapezoidal surfaces, designed as a protective housing or container component.
 def model_26384_83eddf22_0024():
     """Model: 6-32 Nut v2"""
     with BuildPart() as part:
@@ -391,6 +408,7 @@ def model_26384_83eddf22_0024():
     return part.part
 
 
+# Description: This is a hexagonal or octagonal geometric housing/enclosure with a central rectangular cavity or slot running through its length, featuring triangular faceted faces on the ends and a structured mesh-like internal geometry.
 def model_26384_83eddf22_0028():
     """Model: 10-32 Machine Nut v3"""
     with BuildPart() as part:
@@ -415,6 +433,7 @@ def model_26384_83eddf22_0028():
     return part.part
 
 
+# Description: This is a flat rectangular plate or sheet metal component with a parallelogram-like 3D perspective, featuring a long, narrow slot or cutout running diagonally across its surface.
 def model_26388_a3367cba_0001():
     """Model: chrome stainless steel blade.SLDPRT"""
     with BuildPart() as part:
@@ -434,6 +453,7 @@ def model_26388_a3367cba_0001():
     return part.part
 
 
+# Description: This is a solar panel or photovoltaic module with an elongated parallelogram shape, featuring a segmented surface divided into multiple rectangular sections by internal grid lines, representing individual solar cells arranged in rows.
 def model_26388_a3367cba_0007():
     """Model: chrome stainless steel blade 2.SLDPRT"""
     with BuildPart() as part:
@@ -473,6 +493,7 @@ def model_26388_a3367cba_0007():
     return part.part
 
 
+# Description: This is a flat, rectangular plate with a parallelogram or trapezoidal shape featuring a central oval or slot-shaped hole and corner mounting holes, designed as a mounting bracket or connector component.
 def model_26403_1f4a2618_0000():
     """Model: 03_Plaque 2"""
     with BuildPart() as part:
@@ -501,6 +522,7 @@ def model_26403_1f4a2618_0000():
     return part.part
 
 
+# Description: This is a rectangular cutting tool insert or lathe tool holder with a long, flat prismatic body featuring multiple parallel slots or grooves running along its top surface and angled chamfered edges on both ends.
 def model_26403_1f4a2618_0008():
     """Model: 08_Plaque"""
     with BuildPart() as part:
@@ -526,6 +548,7 @@ def model_26403_1f4a2618_0008():
     return part.part
 
 
+# Description: This is a rectangular cutting insert or tool holder with an elongated flat body, featuring two parallel recessed slots or grooves running lengthwise across the top surface and angled/beveled edges on both ends for chip clearance and mounting.
 def model_26403_1f4a2618_0009():
     """Model: 09_Plaque"""
     with BuildPart() as part:
@@ -551,6 +574,7 @@ def model_26403_1f4a2618_0009():
     return part.part
 
 
+# Description: This is a vertical stand or support bracket with a cylindrical upper body, a wide rectangular base flange for stability, and vertical ribbing or fluting along the sides for structural reinforcement.
 def model_26404_7be5b2e3_0003():
     """Model: Support"""
     with BuildPart() as part:
@@ -581,6 +605,7 @@ def model_26404_7be5b2e3_0003():
     return part.part
 
 
+# Description: This is a cylindrical tube or sleeve with a smooth, uniform circular cross-section and rounded ends, featuring a hollow interior core.
 def model_26404_7be5b2e3_0007():
     """Model: Handle"""
     with BuildPart() as part:
@@ -600,6 +625,7 @@ def model_26404_7be5b2e3_0007():
     return part.part
 
 
+# Description: This is a blue and dark gray plastic or composite bracket with a curved, angular boomerang or chevron shape, featuring hollow sections and reinforced edges designed for structural support or mounting applications.
 def model_26764_ab35159a_0000():
     """Model: Trapezoidal joint"""
     with BuildPart() as part:
@@ -645,6 +671,7 @@ def model_26764_ab35159a_0000():
     return part.part
 
 
+# Description: This is a triangular bracket or frame component with three hollow sides forming a right-angled triangle, featuring a reinforced corner joint and smooth curved edges along the perimeter.
 def model_26764_ab35159a_0002():
     """Model: Traingular joint"""
     with BuildPart() as part:
@@ -683,6 +710,7 @@ def model_26764_ab35159a_0002():
     return part.part
 
 
+# Description: This is a blue mesh or perforated rectangular enclosure or duct component with open sides and a curved, wave-like top edge, featuring ventilation holes throughout its walls.
 def model_26764_ab35159a_0004():
     """Model: Nut 1"""
     with BuildPart() as part:
@@ -722,6 +750,7 @@ def model_26764_ab35159a_0004():
     return part.part
 
 
+# Description: This is a hexagonal prism or bar stock with chamfered edges, featuring an elongated rectangular slot or depression running along its top surface.
 def model_26768_c4df841f_0010():
     """Model: Conexion"""
     with BuildPart() as part:
@@ -743,6 +772,7 @@ def model_26768_c4df841f_0010():
     return part.part
 
 
+# Description: This is a flexible corrugated hose or conduit assembly with a curved, loop-like shape featuring two rigid connector fittings (one at the top right and one at the bottom) for attachment to other components.
 def model_26768_c4df841f_0014():
     """Model: Tope"""
     with BuildPart() as part:
@@ -776,6 +806,7 @@ def model_26768_c4df841f_0014():
     return part.part
 
 
+# Description: This is a torus or ring-shaped washer with a circular cross-section, featuring a smooth outer curved surface and a central hollow opening, commonly used as a spacer, seal, or fastener component.
 def model_26773_35d26b3c_0002():
     """Model: Lock washer"""
     with BuildPart() as part:
@@ -795,6 +826,7 @@ def model_26773_35d26b3c_0002():
     return part.part
 
 
+# Description: This is a flat, annular (ring-shaped) washer with a large central hole and a slightly beveled or rounded outer edge, used for distributing loads under bolt heads or nuts.
 def model_26773_35d26b3c_0010():
     """Model: Washer"""
     with BuildPart() as part:
@@ -814,6 +846,7 @@ def model_26773_35d26b3c_0010():
     return part.part
 
 
+# Description: This is an oval or elliptical ring/band with an open top, featuring a dark base structure and a lighter blue mesh or perforated upper surface with internal ribbing and structural elements.
 def model_26861_21e598d0_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -828,6 +861,7 @@ def model_26861_21e598d0_0000():
     return part.part
 
 
+# Description: This is a torus-shaped ring or washer with a circular cross-section, featuring a smooth outer surface and a hollow center, with visible mesh texturing on the top and inner edges.
 def model_27054_342fcf5c_0003():
     """Model: 20 - Washer v1"""
     with BuildPart() as part:
@@ -847,6 +881,7 @@ def model_27054_342fcf5c_0003():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) rubber gasket or seal with a circular cross-section, featuring a smooth outer surface and a hollow center, commonly used for sealing applications in mechanical assemblies.
 def model_27054_342fcf5c_0005():
     """Model: 19 - Seal v1"""
     with BuildPart() as part:
@@ -866,6 +901,7 @@ def model_27054_342fcf5c_0005():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or tube with a smooth exterior surface and slightly textured or knurled top end, appearing to be a simple hollow shaft or spacer component.
 def model_27054_342fcf5c_0006():
     """Model: 36 - Pin v1 (1)"""
     with BuildPart() as part:
@@ -880,6 +916,7 @@ def model_27054_342fcf5c_0006():
     return part.part
 
 
+# Description: This is a circular gasket or sealing ring with an oval/elliptical profile, featuring six evenly-spaced bolt holes around its perimeter for securing it between flanged connections.
 def model_27054_342fcf5c_0016():
     """Model: 17 - Seal v1"""
     with BuildPart() as part:
@@ -917,6 +954,7 @@ def model_27054_342fcf5c_0016():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or bushing with a hollow center, featuring a textured or ribbed surface pattern on its outer walls, designed for mechanical assembly or bearing applications.
 def model_27054_342fcf5c_0024():
     """Model: 9 - Spacer v1"""
     with BuildPart() as part:
@@ -936,6 +974,7 @@ def model_27054_342fcf5c_0024():
     return part.part
 
 
+# Description: This is a torus or ring-shaped seal/gasket with a uniform circular cross-section and smooth curved surfaces, featuring a hollow center and textured outer edges.
 def model_27054_342fcf5c_0038():
     """Model: 32 - Seal v1"""
     with BuildPart() as part:
@@ -955,6 +994,7 @@ def model_27054_342fcf5c_0038():
     return part.part
 
 
+# Description: A flat, circular ring gasket with an oval center opening and four evenly-spaced bolt holes around its perimeter for sealing connections between flanged pipes or equipment.
 def model_27054_342fcf5c_0042():
     """Model: 12 - Seal v1"""
     with BuildPart() as part:
@@ -989,6 +1029,7 @@ def model_27054_342fcf5c_0042():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) ring or washer with a smooth outer surface and a large central hole, featuring textured or knurled sections on portions of its inner and outer edges for grip or engagement purposes.
 def model_27054_342fcf5c_0047():
     """Model: 33 - Washer v1 (16)"""
     with BuildPart() as part:
@@ -1008,6 +1049,7 @@ def model_27054_342fcf5c_0047():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a uniform circular cross-section, tapered slightly at both ends, featuring a smooth, rounded finish suitable for mechanical assembly or bearing applications.
 def model_27070_53448c4a_0008():
     """Model: Wal"""
     with BuildPart() as part:
@@ -1027,6 +1069,7 @@ def model_27070_53448c4a_0008():
     return part.part
 
 
+# Description: This is a long, rectangular hollow tube or channel with a square or rectangular cross-section, tilted at an angle, featuring clean edges and uniform wall thickness throughout its length.
 def model_27070_53448c4a_0017():
     """Model: Chwytacz"""
     with BuildPart() as part:
@@ -1046,6 +1089,7 @@ def model_27070_53448c4a_0017():
     return part.part
 
 
+# Description: This is a triangular pyramidal or wedge-shaped 3D part with a pointed apex at the top, a broad triangular base, and an internal diagonal line or edge visible on one face, suggesting it may be a solid geometric form or a part with internal structure.
 def model_27449_088a5bd0_0001():
     """Model: plate"""
     with BuildPart() as part:
@@ -1065,6 +1109,7 @@ def model_27449_088a5bd0_0001():
     return part.part
 
 
+# Description: A cylindrical rod or shaft with a uniform diameter, slightly tapered at one end, oriented at an angle.
 def model_27452_f37cb86c_0003():
     """Model: Aufhaengung v4 (1)"""
     with BuildPart() as part:
@@ -1079,6 +1124,7 @@ def model_27452_f37cb86c_0003():
     return part.part
 
 
+# Description: A long, flat rectangular bar or plate with a slight 3D parallelogram profile, featuring clean edges and a uniform thickness throughout its length.
 def model_27577_8520e14a_0000():
     """Model: Ladder Horizontal Wood"""
     with BuildPart() as part:
@@ -1098,6 +1144,7 @@ def model_27577_8520e14a_0000():
     return part.part
 
 
+# Description: This is a cylindrical tube or rod with a smooth, tapered design, featuring a hollow interior and a slightly beveled or rounded top edge.
 def model_27577_8520e14a_0001():
     """Model: Ladder Vertical Wood Thick"""
     with BuildPart() as part:
@@ -1117,6 +1164,7 @@ def model_27577_8520e14a_0001():
     return part.part
 
 
+# Description: This is a long, slender rectangular prism or beam with a uniform cross-section, featuring a slight hexagonal or chamfered top end and appearing to be a structural support or mounting rod.
 def model_27577_8520e14a_0002():
     """Model: Ladder Vertical Wood Thin"""
     with BuildPart() as part:
@@ -1136,6 +1184,7 @@ def model_27577_8520e14a_0002():
     return part.part
 
 
+# Description: This is a cylindrical suppressor or silencer with a slightly tapered design, featuring a smooth external surface and rounded ends, commonly used as a muzzle attachment for firearms.
 def model_27577_8520e14a_0003():
     """Model: Ladder Bar Top"""
     with BuildPart() as part:
@@ -1150,6 +1199,7 @@ def model_27577_8520e14a_0003():
     return part.part
 
 
+# Description: This is a flat, elongated rectangular plate or base with a slight trapezoidal profile, featuring a beveled or angled edge on one end and a thin, uniform thickness throughout.
 def model_27577_8520e14a_0005():
     """Model: Swing Seat"""
     with BuildPart() as part:
@@ -1169,6 +1219,7 @@ def model_27577_8520e14a_0005():
     return part.part
 
 
+# Description: This is a curved rod or tube with a smooth, elongated S-shaped bend, tapering slightly at both ends, commonly used as a structural support, guide rail, or decorative element.
 def model_27577_8520e14a_0006():
     """Model: Slide"""
     with BuildPart() as part:
@@ -1216,6 +1267,7 @@ def model_27577_8520e14a_0006():
     return part.part
 
 
+# Description: A horizontal rounded rectangular bar or rod with a slightly curved top surface and uniform cylindrical cross-section.
 def model_27577_8520e14a_0007():
     """Model: Thick Horizontal Pole"""
     with BuildPart() as part:
@@ -1230,6 +1282,7 @@ def model_27577_8520e14a_0007():
     return part.part
 
 
+# Description: This is a simple rounded rectangular bar or rod with a uniform cylindrical profile and slightly rounded ends.
 def model_27577_8520e14a_0008():
     """Model: Thin Horizontal Pole"""
     with BuildPart() as part:
@@ -1244,6 +1297,7 @@ def model_27577_8520e14a_0008():
     return part.part
 
 
+# Description: This is a long, slender rectangular prism or bar stock with a hexagonal or slightly tapered cross-section, featuring grooved or ribbed surface details running along its length.
 def model_27577_8520e14a_0009():
     """Model: Platform Leg"""
     with BuildPart() as part:
@@ -1263,6 +1317,7 @@ def model_27577_8520e14a_0009():
     return part.part
 
 
+# Description: This is a cylindrical tube or pipe with a uniform hollow circular cross-section, featuring a slightly textured or threaded end at the top and a beveled or chamfered edge at the bottom.
 def model_27577_8520e14a_0011():
     """Model: Vertical Pole"""
     with BuildPart() as part:
@@ -1277,6 +1332,7 @@ def model_27577_8520e14a_0011():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated sleeve with a hollow center, featuring a solid base band at the bottom and an open mesh or latticed upper section that tapers slightly inward.
 def model_27679_501db761_0002():
     """Model: rolament"""
     with BuildPart() as part:
@@ -1296,6 +1352,7 @@ def model_27679_501db761_0002():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter component with a solid outer wall and a mesh/screen top surface, designed to allow fluid or air passage while filtering debris.
 def model_27679_501db761_0003():
     """Model: rol_in"""
     with BuildPart() as part:
@@ -1315,6 +1372,7 @@ def model_27679_501db761_0003():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter component with an open top and curved, tapered sidewalls that widen toward the base.
 def model_27679_501db761_0012():
     """Model: 19_23"""
     with BuildPart() as part:
@@ -1334,6 +1392,7 @@ def model_27679_501db761_0012():
     return part.part
 
 
+# Description: This is a polyhedron or geometric solid featuring multiple angular faces in varying shades of blue and dark gray, with a predominantly cuboid-like structure that appears to have been sectioned or truncated to create multiple planar surfaces and internal geometric divisions.
 def model_27679_501db761_0018():
     """Model: 11_14"""
     with BuildPart() as part:
@@ -1356,6 +1415,7 @@ def model_27679_501db761_0018():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or bushing with a slightly tapered, curved top edge and vertical ribbed or fluted surface texture on its outer walls.
 def model_27679_501db761_0022():
     """Model: 22_22"""
     with BuildPart() as part:
@@ -1375,6 +1435,7 @@ def model_27679_501db761_0022():
     return part.part
 
 
+# Description: This is a curved cylindrical duct or shroud component with a rectangular cross-section, featuring vertical ribs on the outer surface and a mesh or perforated panel on the top curved section, designed for airflow management or containment.
 def model_27682_04277f62_0009():
     """Model: pasa eje"""
     with BuildPart() as part:
@@ -1396,6 +1457,7 @@ def model_27682_04277f62_0009():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter basket with a solid base and mesh-sided walls, featuring an open top and designed for liquid filtration or containment applications.
 def model_27682_04277f62_0010():
     """Model: tapon2"""
     with BuildPart() as part:
@@ -1415,6 +1477,7 @@ def model_27682_04277f62_0010():
     return part.part
 
 
+# Description: This is a torus or ring gasket with a circular cross-section, featuring a uniform donut-shaped geometry with a hollow center and smooth, rounded outer and inner surfaces.
 def model_27688_65b3c0dc_0002():
     """Model: Component45"""
     with BuildPart() as part:
@@ -1434,6 +1497,7 @@ def model_27688_65b3c0dc_0002():
     return part.part
 
 
+# Description: This is a cylindrical roller or shaft with a slightly tapered, rounded end and a smooth, elongated body featuring a subtle curved profile along its length.
 def model_27688_65b3c0dc_0004():
     """Model: plaskownikK"""
     with BuildPart() as part:
@@ -1462,6 +1526,7 @@ def model_27688_65b3c0dc_0004():
     return part.part
 
 
+# Description: This is a stylus or pen-shaped tool with an elongated cylindrical body, tapered at both ends, featuring a smooth curved profile and what appears to be a metallic accent stripe running along its length.
 def model_27688_65b3c0dc_0006():
     """Model: plaskownikD"""
     with BuildPart() as part:
@@ -1493,6 +1558,7 @@ def model_27688_65b3c0dc_0006():
     return part.part
 
 
+# Description: This is a hollow cylindrical tube or sleeve with rounded ends and a seam running along its length, appearing to be a simple tubular component suitable for containment, spacing, or protective covering applications.
 def model_27694_7801dc67_0002():
     """Model: Bushing"""
     with BuildPart() as part:
@@ -1512,6 +1578,7 @@ def model_27694_7801dc67_0002():
     return part.part
 
 
+# Description: This is a cylindrical connector or housing with a tapered end, featuring a central longitudinal slot or window cutout along its length and dark end caps on both sides.
 def model_27694_7801dc67_0006():
     """Model: Large"""
     with BuildPart() as part:
@@ -1537,6 +1604,7 @@ def model_27694_7801dc67_0006():
     return part.part
 
 
+# Description: This is a curved cylindrical or band-shaped component with a hollow interior, featuring rectangular slots or openings along its sides and a ribbed or textured outer surface, designed to wrap around or encompass another object.
 def model_27694_7801dc67_0007():
     """Model: Small"""
     with BuildPart() as part:
@@ -1562,6 +1630,7 @@ def model_27694_7801dc67_0007():
     return part.part
 
 
+# Description: This is a cylindrical mesh filter or strainer with a solid dark body and perforated blue mesh cap at the top, designed for fluid or air filtration applications.
 def model_27694_7801dc67_0008():
     """Model: Small pin"""
     with BuildPart() as part:
@@ -1577,6 +1646,7 @@ def model_27694_7801dc67_0008():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or tube with an open top, featuring a curved rim edge and vertical ribbed or fluted surface texture on its sides.
 def model_27694_7801dc67_0013():
     """Model: Small cylinder"""
     with BuildPart() as part:
@@ -1596,6 +1666,7 @@ def model_27694_7801dc67_0013():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or tube with a slightly tapered or curved profile, featuring vertical ribbing or fluting along its entire surface for structural reinforcement.
 def model_27694_7801dc67_0016():
     """Model: Large cylinder"""
     with BuildPart() as part:
@@ -1615,6 +1686,7 @@ def model_27694_7801dc67_0016():
     return part.part
 
 
+# Description: A cylindrical suppressor or silencer with a slightly tapered end cap and textured surface finish, designed for threaded attachment to a firearm barrel.
 def model_27694_7801dc67_0020():
     """Model: I"""
     with BuildPart() as part:
@@ -1630,6 +1702,7 @@ def model_27694_7801dc67_0020():
     return part.part
 
 
+# Description: This is a cylindrical tube or sleeve with a closed bottom end and an open top end, featuring a textured or mesh-like surface pattern on the upper portion.
 def model_27694_7801dc67_0024():
     """Model: II"""
     with BuildPart() as part:
@@ -1645,6 +1718,7 @@ def model_27694_7801dc67_0024():
     return part.part
 
 
+# Description: This is a curved rectangular housing or bracket with a distinctive organic, wave-like surface featuring parallel ribbing or fluting along its concave interior, solid flat external faces, and mounting flanges or tabs on the sides.
 def model_27725_5cceaeb7_0009():
     """Model: Connector"""
     with BuildPart() as part:
@@ -1668,6 +1742,7 @@ def model_27725_5cceaeb7_0009():
     return part.part
 
 
+# Description: This is a cylindrical rod or tube with a slightly tapered design, featuring rounded ends and a smooth, elongated shaft with a uniform diameter throughout its length.
 def model_27725_5cceaeb7_0011():
     """Model: Handle"""
     with BuildPart() as part:
@@ -1687,6 +1762,7 @@ def model_27725_5cceaeb7_0011():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) ring or washer with a thick circular cross-section, featuring a large central hole and textured surface details on the outer edges.
 def model_27733_626709f1_0000():
     """Model: Prcision Shim"""
     with BuildPart() as part:
@@ -1706,6 +1782,7 @@ def model_27733_626709f1_0000():
     return part.part
 
 
+# Description: This is a cylindrical capsule-shaped component with rounded ends, featuring two large circular holes on opposite sides and a central longitudinal slot running along the top surface.
 def model_27839_4a077326_0004():
     """Model: Oslonka III stopnia"""
     with BuildPart() as part:
@@ -1725,6 +1802,7 @@ def model_27839_4a077326_0004():
     return part.part
 
 
+# Description: This is a torus or ring-shaped component with a circular cross-section, featuring a large central hole and a textured or ribbed surface pattern running radially across its outer geometry.
 def model_27839_4a077326_0009():
     """Model: Podkladka sprezyny"""
     with BuildPart() as part:
@@ -1744,6 +1822,7 @@ def model_27839_4a077326_0009():
     return part.part
 
 
+# Description: This is a cylindrical shaft or tube with rounded end caps featuring two large circular holes or bores on opposite ends and a central longitudinal slot or cavity running along its length.
 def model_27839_4a077326_0010():
     """Model: Oslonka II stopnia"""
     with BuildPart() as part:
@@ -1763,6 +1842,7 @@ def model_27839_4a077326_0010():
     return part.part
 
 
+# Description: This is a toroidal (doughnut-shaped) ring with a textured or ribbed surface finish, featuring a large central circular opening and uniform cross-sectional geometry throughout.
 def model_27839_4a077326_0013():
     """Model: Podkladka rolki"""
     with BuildPart() as part:
@@ -1782,6 +1862,7 @@ def model_27839_4a077326_0013():
     return part.part
 
 
+# Description: A dark gray rounded rectangular bar or rod with a elongated pill-shaped profile, featuring uniformly rounded ends and a smooth cylindrical surface.
 def model_27839_4a077326_0022():
     """Model: Oslonka przeciwwagi"""
     with BuildPart() as part:
@@ -1801,6 +1882,7 @@ def model_27839_4a077326_0022():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a uniform circular cross-section, tapered slightly at both ends, featuring a smooth, elongated body with no holes, slots, or flanges.
 def model_27872_07f8a3a0_0000():
     """Model: Component9"""
     with BuildPart() as part:
@@ -1820,6 +1902,7 @@ def model_27872_07f8a3a0_0000():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a tapered/rounded end, featuring a smooth, uniform circular cross-section throughout its length with a slight conical taper at one end.
 def model_27872_07f8a3a0_0002():
     """Model: Component6"""
     with BuildPart() as part:
@@ -1839,6 +1922,7 @@ def model_27872_07f8a3a0_0002():
     return part.part
 
 
+# Description: This is a dark blue composite or plastic housing component with a trapezoidal profile, featuring a dual-chambered design with a central divider, angled side walls, and a flat base with a subtle curved underside detail.
 def model_28282_97002185_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1870,6 +1954,7 @@ def model_28282_97002185_0000():
     return part.part
 
 
+# Description: This is a rectangular box or enclosure with an angled lid and a cylindrical protruding connector or port on the left side, featuring a segmented geometric surface design with triangulated panels on the top and sides.
 def model_28283_1a9ffb0b_0000():
     """Model: Arm 2"""
     with BuildPart() as part:
@@ -1911,6 +1996,7 @@ def model_28283_1a9ffb0b_0000():
     return part.part
 
 
+# Description: This is a cylindrical container or barrel with an open top and a slightly tapered upper rim, featuring a flat circular base and vertical ribbed or fluted surface detailing along its sides.
 def model_28456_69d04209_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1925,6 +2011,7 @@ def model_28456_69d04209_0000():
     return part.part
 
 
+# Description: This is a parallelogram-shaped flat plate or panel with a uniform thickness and a slight angular/skewed geometry, featuring clean edges and a simple geometric form without holes, slots, or additional features.
 def model_28888_da6e6e94_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1944,6 +2031,7 @@ def model_28888_da6e6e94_0000():
     return part.part
 
 
+# Description: This is an L-shaped bracket or corner joint with two perpendicular rectangular arms extending horizontally and vertically, featuring hollow/tubular construction with visible internal geometry and sharp edges typical of a metal structural component or connector.
 def model_29114_80c15ce0_0004():
     """Model: SA-107"""
     with BuildPart() as part:
@@ -1967,6 +2055,7 @@ def model_29114_80c15ce0_0004():
     return part.part
 
 
+# Description: This is a flat parallelogram-shaped plate or bracket with a diagonal line dividing it into two triangular sections, featuring a tapered left end and straight right edge with uniform thickness throughout.
 def model_29115_cade8ac7_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -1986,6 +2075,7 @@ def model_29115_cade8ac7_0000():
     return part.part
 
 
+# Description: This is a parallelogram-shaped flat plate or panel with a slightly curved or warped surface, characterized by horizontal linear grooves or ribs running across its entire face.
 def model_29442_365e23df_0008():
     """Model: SA-218-Canopy"""
     with BuildPart() as part:
@@ -2005,6 +2095,7 @@ def model_29442_365e23df_0008():
     return part.part
 
 
+# Description: This is a hexagonal prism or wedge-shaped box with a tapered/angled left end, featuring a rectangular base and sloped upper surfaces, with a simple geometric design suitable for structural or assembly applications.
 def model_30030_d4b0c535_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2024,6 +2115,7 @@ def model_30030_d4b0c535_0000():
     return part.part
 
 
+# Description: This is a rectangular prism or flat bar stock part with a tapered or beveled edge along one of its long sides, creating an asymmetrical cross-section.
 def model_30274_ca0d10b2_0004():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2043,6 +2135,7 @@ def model_30274_ca0d10b2_0004():
     return part.part
 
 
+# Description: This is a curved timing belt or drive belt with a smooth upper surface and evenly spaced teeth on the underside, designed to transmit power between pulleys in a mechanical system.
 def model_30292_0b5e0265_0003():
     """Model: Headset"""
     with BuildPart() as part:
@@ -2062,6 +2155,7 @@ def model_30292_0b5e0265_0003():
     return part.part
 
 
+# Description: A flat, annular (ring-shaped) disk with a large central hole, commonly used as a spacer or fastener component in mechanical assemblies.
 def model_30297_fd93a92a_0000():
     """Model: Washer v1"""
     with BuildPart() as part:
@@ -2081,6 +2175,7 @@ def model_30297_fd93a92a_0000():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter component with a closed bottom end and an open top with a mesh screen, typically used for fluid or air filtration applications.
 def model_30297_fd93a92a_0003():
     """Model: Screw v1"""
     with BuildPart() as part:
@@ -2095,6 +2190,7 @@ def model_30297_fd93a92a_0003():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated filter/strainer component with a solid base section and an open latticed or mesh-patterned upper portion, designed for liquid or gas filtration applications.
 def model_30297_fd93a92a_0004():
     """Model: Part 3 v1"""
     with BuildPart() as part:
@@ -2114,6 +2210,7 @@ def model_30297_fd93a92a_0004():
     return part.part
 
 
+# Description: A hexagonal prism or bolt with a central cylindrical hole running through its length and triangular relief cutouts on the top surface.
 def model_30297_fd93a92a_0007():
     """Model: Bolt v1"""
     with BuildPart() as part:
@@ -2138,6 +2235,7 @@ def model_30297_fd93a92a_0007():
     return part.part
 
 
+# Description: This is a flexible rubber or elastomer boot/sleeve component with a tapered, curved tubular shape that widens at one end and narrows toward the other, featuring a textured surface and appearing designed to provide protective covering or sealing for mechanical components.
 def model_30375_4ff65965_0008():
     """Model: Trigger"""
     with BuildPart() as part:
@@ -2158,6 +2256,7 @@ def model_30375_4ff65965_0008():
     return part.part
 
 
+# Description: This is a paraglider wing or airfoil component featuring a streamlined, elongated pod-like shape with a curved upper surface, flat bottom panel, and a textured mesh or grid pattern on the leading edge for aerodynamic flow management.
 def model_30376_e4495332_0000():
     """Model: Loop"""
     with BuildPart() as part:
@@ -2181,6 +2280,7 @@ def model_30376_e4495332_0000():
     return part.part
 
 
+# Description: This is an elliptical composite structure featuring a shallow oval basin with radial internal ribs/reinforcements and a flat rim flange around the perimeter.
 def model_30376_e4495332_0001():
     """Model: Canister Lid"""
     with BuildPart() as part:
@@ -2195,6 +2295,7 @@ def model_30376_e4495332_0001():
     return part.part
 
 
+# Description: This is a parallelogram-shaped flat plate or wedge with a trapezoidal profile, featuring a thin beveled or angled edge on one side and a uniform thickness throughout, likely used as a structural component or spacer.
 def model_30379_f1d5e193_0004():
     """Model: Motor Controller Housing Bottom"""
     with BuildPart() as part:
@@ -2214,6 +2315,7 @@ def model_30379_f1d5e193_0004():
     return part.part
 
 
+# Description: This is a cylindrical mesh or perforated sleeve with a hollow core, featuring a continuous pattern of parallel slots or perforations running along its length, and a curved or rounded outer surface.
 def model_30379_f1d5e193_0009():
     """Model: Inner Race"""
     with BuildPart() as part:
@@ -2233,6 +2335,7 @@ def model_30379_f1d5e193_0009():
     return part.part
 
 
+# Description: This is a cylindrical manifold or pressure vessel with a elongated horizontal body, rounded end caps, and internal passages or channels visible through the transparent sections, featuring what appears to be port connections or fittings on the ends.
 def model_30379_f1d5e193_0015():
     """Model: Half Shaft"""
     with BuildPart() as part:
@@ -2275,6 +2378,7 @@ def model_30379_f1d5e193_0015():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or tube with an oval or elongated opening at the top and vertical ribbing or fluting along its outer surface.
 def model_30380_4d422f95_0004():
     """Model: Master Rod Sleeve"""
     with BuildPart() as part:
@@ -2294,6 +2398,7 @@ def model_30380_4d422f95_0004():
     return part.part
 
 
+# Description: This is a toroidal (doughnut-shaped) ring or bushing with a uniform cross-section and a central circular hole, featuring a smooth curved outer surface and textured inner surfaces.
 def model_30380_4d422f95_0005():
     """Model: Crank Case Bearing"""
     with BuildPart() as part:
@@ -2313,6 +2418,7 @@ def model_30380_4d422f95_0005():
     return part.part
 
 
+# Description: This is a hollow cylindrical tube or sleeve with a slightly tapered, curved top end and vertical ribbing or fluting along its outer surface.
 def model_30380_4d422f95_0011():
     """Model: Cylinder Lining"""
     with BuildPart() as part:
@@ -2332,6 +2438,7 @@ def model_30380_4d422f95_0011():
     return part.part
 
 
+# Description: A claw hammer consisting of a long cylindrical shaft with a flat striking head on one end and a forked claw for nail removal on the opposite end.
 def model_30389_3f514b04_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2371,6 +2478,7 @@ def model_30389_3f514b04_0000():
     return part.part
 
 
+# Description: This is a rectangular frame or mounting bracket with a hollow center opening, featuring four corner reinforcement blocks and parallel slot or rib details running along the inner surfaces for structural rigidity.
 def model_30400_8824ce97_0015():
     """Model: 18-03-001300-1_18-03-001302-1-solid1"""
     with BuildPart() as part:
@@ -2409,6 +2517,7 @@ def model_30400_8824ce97_0015():
     return part.part
 
 
+# Description: This is a flat, elongated blue composite or plastic panel with a trapezoidal shape, featuring internal structural ribs, a central white cutout, and angular reinforcement patterns visible through its semi-transparent surface.
 def model_30400_8824ce97_0032():
     """Model: 18-03-001200-1_18-03-001203-1-solid1"""
     with BuildPart() as part:
@@ -2467,6 +2576,7 @@ def model_30400_8824ce97_0032():
     return part.part
 
 
+# Description: This is a curved sheet metal duct or channel with a rectangular cross-section and a gentle longitudinal curve, featuring flanged edges along its length for structural rigidity and assembly purposes.
 def model_30400_8824ce97_0033():
     """Model: 18-03-001200-1_18-03-001202-1-solid1"""
     with BuildPart() as part:
@@ -2489,6 +2599,7 @@ def model_30400_8824ce97_0033():
     return part.part
 
 
+# Description: This is a complex aluminum or composite aerospace/defense component with an overall angular, wedge-like shape featuring multiple internal structural ribs, rectangular apertures or windows, and faceted exterior surfaces designed for lightweight structural efficiency.
 def model_30400_8824ce97_0036():
     """Model: 18-03-001001-1-solid"""
     with BuildPart() as part:
@@ -2524,6 +2635,7 @@ def model_30400_8824ce97_0036():
     return part.part
 
 
+# Description: This is a cylindrical housing or barrel component with a rounded nose cone on one end, featuring symmetrical side flanges or mounting brackets and internal ribbed reinforcement structure visible through the semi-transparent rendering.
 def model_30417_0010bc7c_0009():
     """Model: Shaft_3"""
     with BuildPart() as part:
@@ -2545,6 +2657,7 @@ def model_30417_0010bc7c_0009():
     return part.part
 
 
+# Description: This is an oval or elliptical shell/cover with a smooth, curved surface and vertical ribbing or fluting pattern running across its face, featuring tapered edges that blend seamlessly into the rounded form.
 def model_30417_0010bc7c_0010():
     """Model: Backing plate (1)"""
     with BuildPart() as part:
@@ -2559,6 +2672,7 @@ def model_30417_0010bc7c_0010():
     return part.part
 
 
+# Description: This is a long, flat rectangular bar or rail with a tapered/pointed left end, rounded right end with a circular hole or port, and linear slot details along its upper surface.
 def model_30417_0010bc7c_0011():
     """Model: Motor pinion"""
     with BuildPart() as part:
@@ -2580,6 +2694,7 @@ def model_30417_0010bc7c_0011():
     return part.part
 
 
+# Description: This is a cylindrical tube or barrel with a tapered, pointed nose cone on the left end and circular end caps on both sides, featuring a ribbed or corrugated surface texture throughout.
 def model_30417_0010bc7c_0012():
     """Model: Shaft_1"""
     with BuildPart() as part:
@@ -2601,6 +2716,7 @@ def model_30417_0010bc7c_0012():
     return part.part
 
 
+# Description: This is a hemispherical bowl or dome with a flat rectangular top flange featuring triangular reinforcement ribs and mounting points.
 def model_30417_0010bc7c_0015():
     """Model: Key"""
     with BuildPart() as part:
@@ -2620,6 +2736,7 @@ def model_30417_0010bc7c_0015():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) mechanical component with a large central oval hole and radial ribbing or fin-like protrusions around its entire circumference, likely serving as a cooling element or structural reinforcement in an industrial application.
 def model_30417_0010bc7c_0017():
     """Model: Washer"""
     with BuildPart() as part:
@@ -2642,6 +2759,7 @@ def model_30417_0010bc7c_0017():
     return part.part
 
 
+# Description: This is a regular hexagonal prism with chamfered or beveled edges along its top and bottom perimeters, creating an octagonal-like appearance when viewed from above, featuring flat faces and triangulated surface geometry.
 def model_30417_0010bc7c_0018():
     """Model: Nut for Belleville"""
     with BuildPart() as part:
@@ -2663,6 +2781,7 @@ def model_30417_0010bc7c_0018():
     return part.part
 
 
+# Description: This is a rectangular flat panel or screen bezel with a dark surface and a gray border frame, featuring four corner mounting points and a diagonal cross-brace or support structure visible on the inner surface.
 def model_30417_0010bc7c_0019():
     """Model: Motor cover"""
     with BuildPart() as part:
@@ -2698,6 +2817,7 @@ def model_30417_0010bc7c_0019():
     return part.part
 
 
+# Description: This is a ring-shaped washer or spacer with an oval/elliptical profile, featuring a textured or ribbed surface pattern across its outer and inner edges.
 def model_30417_0010bc7c_0021():
     """Model: Washer (1)"""
     with BuildPart() as part:
@@ -2717,6 +2837,7 @@ def model_30417_0010bc7c_0021():
     return part.part
 
 
+# Description: This is a metal bracket or mounting arm with an angular, bent L-shaped design featuring two perpendicular sections connected by a curved transition, with slots or openings along the upper surface and reinforcing ribs on the dark gray/blue textured base.
 def model_30418_de83ae84_0003():
     """Model: Part1 Base:1"""
     with BuildPart() as part:
@@ -2759,6 +2880,7 @@ def model_30418_de83ae84_0003():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a smooth, tapered conical end, featuring a textured surface finish and uniform diameter along its length.
 def model_30418_de83ae84_0004():
     """Model: giro"""
     with BuildPart() as part:
@@ -2773,6 +2895,7 @@ def model_30418_de83ae84_0004():
     return part.part
 
 
+# Description: This is a flat, oval-shaped plate or pad with a textured, ribbed surface pattern and a slightly raised peripheral rim or flange around its edges.
 def model_30419_d55a0a22_0000():
     """Model: lower platform"""
     with BuildPart() as part:
@@ -2787,6 +2910,7 @@ def model_30419_d55a0a22_0000():
     return part.part
 
 
+# Description: This is an oval or elliptical plate/base with a dark finish featuring two rectangular slots or cutouts on its upper surface, designed with a slightly domed or curved profile.
 def model_30419_d55a0a22_0002():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -2809,6 +2933,7 @@ def model_30419_d55a0a22_0002():
     return part.part
 
 
+# Description: This is a cylindrical rod or pin with rounded ends, featuring a uniform diameter throughout its length and a slight surface texture or knurling pattern along its body.
 def model_30421_211edb5e_0004():
     """Model: Pins"""
     with BuildPart() as part:
@@ -2825,6 +2950,7 @@ def model_30421_211edb5e_0004():
     return part.part
 
 
+# Description: This is a flat parallelogram-shaped plate or panel with beveled edges on the corners, featuring a simple planar surface with no holes or slots, typical of a shim, spacer, or structural mounting plate.
 def model_30426_2cde26de_0002():
     """Model: Tavola"""
     with BuildPart() as part:
@@ -2846,6 +2972,7 @@ def model_30426_2cde26de_0002():
     return part.part
 
 
+# Description: This is a square steel shaft or rod with a uniform cross-section and tapered or beveled ends, featuring a dark blue/gray metallic finish.
 def model_30435_c97330d2_0012():
     """Model: CrossBraceShort1"""
     with BuildPart() as part:
@@ -2871,6 +2998,7 @@ def model_30435_c97330d2_0012():
     return part.part
 
 
+# Description: This is a hexagonal rod or bar stock, characterized by its elongated prismatic shape with a uniform hexagonal cross-section and tapered or beveled ends.
 def model_30435_c97330d2_0016():
     """Model: Leg2"""
     with BuildPart() as part:
@@ -2896,6 +3024,7 @@ def model_30435_c97330d2_0016():
     return part.part
 
 
+# Description: This is a rounded rectangular bar or rail with two small rectangular slots or cutouts positioned symmetrically near each end on the top surface.
 def model_30445_791b6800_0000():
     """Model: Component17"""
     with BuildPart() as part:
@@ -2911,6 +3040,7 @@ def model_30445_791b6800_0000():
     return part.part
 
 
+# Description: This is a rounded rectangular bar or rod with a simple, elongated cylindrical shape featuring hemispherical or rounded ends, commonly used as a spacer, pin, or connector element in mechanical assemblies.
 def model_30445_791b6800_0006():
     """Model: Component19"""
     with BuildPart() as part:
@@ -2926,6 +3056,7 @@ def model_30445_791b6800_0006():
     return part.part
 
 
+# Description: A dark gray rounded rectangular bar or capsule-shaped solid with uniform width and length, featuring smoothly rounded ends and no visible holes or features.
 def model_30445_791b6800_0007():
     """Model: Component20"""
     with BuildPart() as part:
@@ -2945,6 +3076,7 @@ def model_30445_791b6800_0007():
     return part.part
 
 
+# Description: This is a parallelogram-shaped structural frame or tray with a hollow interior, featuring a reinforced border/flange around the perimeter and internal cross-bracing or support ribs for structural rigidity.
 def model_30445_791b6800_0010():
     """Model: Component5"""
     with BuildPart() as part:
@@ -2976,6 +3108,7 @@ def model_30445_791b6800_0010():
     return part.part
 
 
+# Description: This is a rectangular tray or shallow box with a flat bottom, four raised wall flanges around the perimeter, and an open top designed for holding or organizing contents.
 def model_30445_791b6800_0013():
     """Model: Component6"""
     with BuildPart() as part:
@@ -3007,6 +3140,7 @@ def model_30445_791b6800_0013():
     return part.part
 
 
+# Description: This is a cylindrical rifle handguard with a ribbed exterior surface, featuring ventilation slots along its length and a cutout window, designed to protect the barrel while providing ergonomic grip and heat dissipation.
 def model_30445_791b6800_0014():
     """Model: Component8"""
     with BuildPart() as part:
@@ -3054,6 +3188,7 @@ def model_30445_791b6800_0014():
     return part.part
 
 
+# Description: This is a horizontal support beam or crossmember with a blue/gray rectangular tube body and black reinforced end flanges on both sides, designed for structural bracing or mounting applications.
 def model_30447_4ed3b778_0001():
     """Model: Valve Link Rod"""
     with BuildPart() as part:
@@ -3103,6 +3238,7 @@ def model_30447_4ed3b778_0001():
     return part.part
 
 
+# Description: This is a curved protective shroud or housing component with a streamlined, elongated shape featuring blue mesh or ventilation panels on the sides and dark gray end caps, designed to cover and protect internal components while allowing airflow.
 def model_30447_4ed3b778_0003():
     """Model: Valve Link Bellcrank"""
     with BuildPart() as part:
@@ -3150,6 +3286,7 @@ def model_30447_4ed3b778_0003():
     return part.part
 
 
+# Description: This is a circular disc with a reinforced mesh or textured rim around its outer edge, featuring a flat front face and a perforated or latticed band running along the circumference, commonly used as a filter, strainer, or structural reinforcement component.
 def model_30447_4ed3b778_0006():
     """Model: Flywheel"""
     with BuildPart() as part:
@@ -3169,6 +3306,7 @@ def model_30447_4ed3b778_0006():
     return part.part
 
 
+# Description: This is a rectangular tray or sliding mechanism with a flat base platform, angled side walls, and two parallel slots or guide rails running along the top surface for linear motion or component alignment.
 def model_30447_4ed3b778_0016():
     """Model: Steam Chest Cover"""
     with BuildPart() as part:
@@ -3191,6 +3329,7 @@ def model_30447_4ed3b778_0016():
     return part.part
 
 
+# Description: This is a black plastic mounting bracket or clamp with an angular hook-shaped head on one end and a flat, elongated body with internal ribbing or reinforcement features for structural support.
 def model_30637_f6324fc6_0009():
     """Model: Component12"""
     with BuildPart() as part:
@@ -3225,6 +3364,7 @@ def model_30637_f6324fc6_0009():
     return part.part
 
 
+# Description: This is a cylindrical tube or barrel with rounded ends (capsule shape) featuring multiple longitudinal slots or grooves running along its length, with blue highlights indicating specific surface features or details.
 def model_30690_3df2c9e2_0003():
     """Model: Pasador de Expansión"""
     with BuildPart() as part:
@@ -3244,6 +3384,7 @@ def model_30690_3df2c9e2_0003():
     return part.part
 
 
+# Description: This is a adjustable hose clamp (or worm-gear clamp) featuring a circular band with a textured surface and a tightening mechanism on one side, designed to secure hoses or tubes by compressing them with the adjustable screw mechanism.
 def model_30690_3df2c9e2_0005():
     """Model: Anillo de retención"""
     with BuildPart() as part:
@@ -3273,6 +3414,7 @@ def model_30690_3df2c9e2_0005():
     return part.part
 
 
+# Description: This is an elongated rectangular bracket or connector with a cylindrical rounded profile at both ends, featuring two mounting holes at the top and bottom and a central slot or channel running along its length.
 def model_30690_3df2c9e2_0007():
     """Model: Riostra"""
     with BuildPart() as part:
@@ -3300,6 +3442,7 @@ def model_30690_3df2c9e2_0007():
     return part.part
 
 
+# Description: This is a horseshoe-shaped magnetic core or ferrite ring with a C-shaped cross-section, featuring a central open gap and internal cylindrical surfaces designed to guide magnetic flux or accommodate coil windings.
 def model_30690_3df2c9e2_0015():
     """Model: Anillo de retención 1"""
     with BuildPart() as part:
@@ -3331,6 +3474,7 @@ def model_30690_3df2c9e2_0015():
     return part.part
 
 
+# Description: This is a cylindrical shaft or rod with a long, slender tubular body and rounded ends, featuring a slight taper or chamfer at both extremities.
 def model_30690_3df2c9e2_0018():
     """Model: Soporte"""
     with BuildPart() as part:
@@ -3346,6 +3490,7 @@ def model_30690_3df2c9e2_0018():
     return part.part
 
 
+# Description: This is a cylindrical tube or pipe component with a hemispherical end cap on the left side and an open or recessed circular end on the right, featuring a hollow interior cavity running through its length.
 def model_30690_3df2c9e2_0019():
     """Model: Pasador de resorte"""
     with BuildPart() as part:
@@ -3365,6 +3510,7 @@ def model_30690_3df2c9e2_0019():
     return part.part
 
 
+# Description: This is a tapered coffin or casket shape with a hexagonal cross-section, featuring a hinged or split lid design (shown in blue) and a darker base body with internal structural ribbing and a rectangular slot or opening at the foot end.
 def model_30708_4282508b_0000():
     """Model: Component19"""
     with BuildPart() as part:
@@ -3405,6 +3551,7 @@ def model_30708_4282508b_0000():
     return part.part
 
 
+# Description: This is a cylindrical sleeve or ring with a curved, tapered profile featuring vertical ribbing or fluting along its exterior surface and a smooth interior bore.
 def model_30713_06b3d0ec_0002():
     """Model: Ruedabien"""
     with BuildPart() as part:
@@ -3424,6 +3571,7 @@ def model_30713_06b3d0ec_0002():
     return part.part
 
 
+# Description: This is an elliptical parabolic reflector or antenna dish featuring a wireframe skeletal structure with radial support ribs converging toward the center, a curved perimeter rim, and a dark reinforced edge band, commonly used in satellite communications or radio astronomy applications.
 def model_30713_06b3d0ec_0014():
     """Model: TapaEmbellecedor"""
     with BuildPart() as part:
@@ -3438,6 +3586,7 @@ def model_30713_06b3d0ec_0014():
     return part.part
 
 
+# Description: This is a bracket or mounting component with a curved, angular design featuring a main body with ribbed reinforcement sections, a protruding flange on one end, and internal hollow sections, likely designed to provide structural support while minimizing weight.
 def model_30713_06b3d0ec_0016():
     """Model: FijaciónE"""
     with BuildPart() as part:
@@ -3468,6 +3617,7 @@ def model_30713_06b3d0ec_0016():
     return part.part
 
 
+# Description: This is a cylindrical roller or spacer with a dark gray body and blue mesh-textured end caps, featuring a hollow central axis and symmetrical design for alignment or support applications.
 def model_30729_b4d83b07_0002():
     """Model: 16 Hand v1"""
     with BuildPart() as part:
@@ -3487,6 +3637,7 @@ def model_30729_b4d83b07_0002():
     return part.part
 
 
+# Description: This is a cylindrical rod or dowel pin with a uniform diameter and rounded ends, featuring a smooth, tapered finish at both extremities.
 def model_30729_b4d83b07_0005():
     """Model: 11 Pin 2 v2"""
     with BuildPart() as part:
@@ -3501,6 +3652,7 @@ def model_30729_b4d83b07_0005():
     return part.part
 
 
+# Description: This is a cylindrical suppressor or silencer featuring a tubular body with a slightly tapered threaded end cap, designed to reduce firearm noise signature.
 def model_30729_b4d83b07_0007():
     """Model: 9 Pin v1 (1)"""
     with BuildPart() as part:
@@ -3515,6 +3667,7 @@ def model_30729_b4d83b07_0007():
     return part.part
 
 
+# Description: A long, slender tire lever with a curved hook at the top end and a small circular hole near the bottom end, designed for prying and removing tires from wheel rims.
 def model_30729_b4d83b07_0012():
     """Model: 12 Bar support v2 (1)"""
     with BuildPart() as part:
@@ -3544,6 +3697,7 @@ def model_30729_b4d83b07_0012():
     return part.part
 
 
+# Description: A dark gray cylindrical tube or pipe with slightly rounded ends, tilted at an angle, featuring a smooth cylindrical body with no visible holes, slots, or flanges.
 def model_30729_b4d83b07_0017():
     """Model: 10 Bar Support v3 (1)"""
     with BuildPart() as part:
@@ -3563,6 +3717,7 @@ def model_30729_b4d83b07_0017():
     return part.part
 
 
+# Description: This is a hexagonal steel pin or rod with a long, slender cylindrical body and a tapered or chamfered end, commonly used as a fastener, alignment pin, or dowel in mechanical assemblies.
 def model_30729_b4d83b07_0018():
     """Model: 3 Structure v1"""
     with BuildPart() as part:
@@ -3596,6 +3751,7 @@ def model_30729_b4d83b07_0018():
     return part.part
 
 
+# Description: This is a tapered cylindrical rod or shaft with a gradual conical reduction from a thicker end to a pointed tip, featuring a smooth, continuous surface.
 def model_30904_54099e05_0008():
     """Model: Vertical de la pizarra v6 (1)"""
     with BuildPart() as part:
@@ -3619,6 +3775,7 @@ def model_30904_54099e05_0008():
     return part.part
 
 
+# Description: This is a simple tapered rod or cone pin with a straight, elongated cylindrical shape that gradually decreases in diameter from one end to the other.
 def model_30904_54099e05_0009():
     """Model: Horizontal de la pizarra v8"""
     with BuildPart() as part:
@@ -3642,6 +3799,7 @@ def model_30904_54099e05_0009():
     return part.part
 
 
+# Description: This is an elongated rectangular bar or beam with a tapered hexagonal cross-section, featuring beveled edges on the ends and a slight curved top surface, designed as a structural or support component.
 def model_30904_54099e05_0016():
     """Model: Pie de la pizarra v2 (1)"""
     with BuildPart() as part:
@@ -3675,6 +3833,7 @@ def model_30904_54099e05_0016():
     return part.part
 
 
+# Description: This is a toroidal (doughnut-shaped) ring with a smooth, curved cross-section and a central hollow opening, featuring textured surface detailing on portions of the outer and inner surfaces.
 def model_31096_cf2a94f6_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3694,6 +3853,7 @@ def model_31096_cf2a94f6_0000():
     return part.part
 
 
+# Description: This is a triangular prism or wedge-shaped part with a pointed apex on the left and a rectangular face on the right, featuring a simple geometric form with flat surfaces and sharp edges.
 def model_31106_7fcb831a_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3712,6 +3872,7 @@ def model_31106_7fcb831a_0000():
     return part.part
 
 
+# Description: This is a wedge-shaped or trapezoidal prism block with a slanted top surface and angled side faces, featuring a uniform thickness and sharp geometric edges characteristic of a basic structural or mounting component.
 def model_31116_0b0aa2be_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -3731,6 +3892,7 @@ def model_31116_0b0aa2be_0000():
     return part.part
 
 
+# Description: This is a cross-shaped or X-shaped bracket or connector featuring four cylindrical arms extending from a central junction, with black reinforced edges and blue structural webbing or ribbing between the arms for rigidity.
 def model_31245_b2c86b4e_0000():
     """Model: base plate"""
     with BuildPart() as part:
@@ -3870,6 +4032,7 @@ def model_31245_b2c86b4e_0000():
     return part.part
 
 
+# Description: A flat, elongated parallelogram-shaped plate or blade with a tapered profile and beveled edges, featuring a thin, wedge-like geometry.
 def model_31245_b2c86b4e_0007():
     """Model: wing"""
     with BuildPart() as part:
@@ -3912,6 +4075,7 @@ def model_31245_b2c86b4e_0007():
     return part.part
 
 
+# Description: This is a boat hull or marine vessel component with an elongated, tapered rectangular shape featuring a central keel or fin structure running lengthwise, designed to provide hydrodynamic stability and directional control.
 def model_31277_b1263495_0005():
     """Model: KEEPER PLATE"""
     with BuildPart() as part:
@@ -3934,6 +4098,7 @@ def model_31277_b1263495_0005():
     return part.part
 
 
+# Description: This is a curved serpentine or C-shaped structural component with a hollow center, featuring a textured mesh or latticed surface on its outer edges and a solid dark core, designed to bend around obstacles or provide flexible support in an assembly.
 def model_31277_b1263495_0007():
     """Model: WHEEL SNAP RING"""
     with BuildPart() as part:
@@ -3953,6 +4118,7 @@ def model_31277_b1263495_0007():
     return part.part
 
 
+# Description: This is a stamped or molded metal bracket or strap with an elongated rectangular body, featuring a central slot or groove running lengthwise and black reinforced end caps or flanges on both terminals.
 def model_31277_b1263495_0009():
     """Model: 5-32 x 1 1-2  COTTER PIN"""
     with BuildPart() as part:
@@ -3984,6 +4150,7 @@ def model_31277_b1263495_0009():
     return part.part
 
 
+# Description: This is a curved headband or head-worn device featuring a padded dark gray inner band with a blue mesh or textured outer covering, designed to distribute pressure and provide comfort around the head.
 def model_31277_b1263495_0010():
     """Model: AXLE SNAP RING"""
     with BuildPart() as part:
@@ -4003,6 +4170,7 @@ def model_31277_b1263495_0010():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a slightly tapered design, featuring rounded ends and a uniform diameter along its length.
 def model_31280_c8bd4b11_0002():
     """Model: Main Shaft"""
     with BuildPart() as part:
@@ -4017,6 +4185,7 @@ def model_31280_c8bd4b11_0002():
     return part.part
 
 
+# Description: This is a flat trapezoidal or wedge-shaped plate with a tapered profile, featuring a sloped top surface and a thicker base, commonly used as a shim, spacer, or angled mounting bracket.
 def model_31280_c8bd4b11_0003():
     """Model: Sponge"""
     with BuildPart() as part:
@@ -4035,6 +4204,7 @@ def model_31280_c8bd4b11_0003():
     return part.part
 
 
+# Description: A long, slender cylindrical rod or shaft with a uniform diameter and slight taper at one end, featuring a smooth surface finish suitable for mechanical assembly or structural support applications.
 def model_31280_c8bd4b11_0007():
     """Model: Left Shaft"""
     with BuildPart() as part:
@@ -4049,6 +4219,7 @@ def model_31280_c8bd4b11_0007():
     return part.part
 
 
+# Description: This is a cylindrical ring or sleeve with a hollow central bore, featuring a curved, dome-like top surface and a mesh or perforated pattern across its outer surfaces, suggesting it may be a filter, strainer, or ventilation component.
 def model_31360_a1accb4b_0001():
     """Model: 21-Low Friction Ring"""
     with BuildPart() as part:
@@ -4068,6 +4239,7 @@ def model_31360_a1accb4b_0001():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with a uniform circular cross-section, featuring a straight, tapered or slightly angled linear form with smooth surfaces and no holes or protrusions.
 def model_31360_a1accb4b_0003():
     """Model: Threaded Rod"""
     with BuildPart() as part:
@@ -4082,6 +4254,7 @@ def model_31360_a1accb4b_0003():
     return part.part
 
 
+# Description: This is a long, slender cylindrical stylus or pen with a tapered pointed tip at one end and a small circular loop or hole at the opposite end for attachment or grip purposes.
 def model_31360_a1accb4b_0004():
     """Model: 5-Connecting Rod"""
     with BuildPart() as part:
@@ -4117,6 +4290,7 @@ def model_31360_a1accb4b_0004():
     return part.part
 
 
+# Description: This is a washer or ring-shaped spacer with a flat, disc-like form featuring a large central hole and a uniformly thick annular (donut-shaped) body.
 def model_31360_a1accb4b_0005():
     """Model: Thrust Roller Bearing"""
     with BuildPart() as part:
@@ -4136,6 +4310,7 @@ def model_31360_a1accb4b_0005():
     return part.part
 
 
+# Description: This is a curved bracket or support clamp with an elongated, tapered body featuring a central oval slot and flared ends for mounting or attachment points.
 def model_31360_a1accb4b_0007():
     """Model: 6-Rocker"""
     with BuildPart() as part:
@@ -4192,6 +4367,7 @@ def model_31360_a1accb4b_0007():
     return part.part
 
 
+# Description: This is a torus or ring-shaped elastomeric seal/gasket featuring a smooth inner and outer diameter with a mesh-textured surface, designed for fluid containment or mechanical sealing applications.
 def model_31360_a1accb4b_0009():
     """Model: 31-Low Friction Ring"""
     with BuildPart() as part:
@@ -4211,6 +4387,7 @@ def model_31360_a1accb4b_0009():
     return part.part
 
 
+# Description: This is a cylindrical mesh filter or strainer component with an elliptical cross-section, featuring a solid outer wall and a perforated or mesh inner surface with a central longitudinal slot or opening along the top.
 def model_31360_a1accb4b_0011():
     """Model: Oil conduit gasket"""
     with BuildPart() as part:
@@ -4230,6 +4407,7 @@ def model_31360_a1accb4b_0011():
     return part.part
 
 
+# Description: A straight cylindrical rod or pin with a uniform circular cross-section and slight taper at the ends, displayed at an angle.
 def model_31391_df3562f8_0001():
     """Model: Steel Rod"""
     with BuildPart() as part:
@@ -4244,6 +4422,7 @@ def model_31391_df3562f8_0001():
     return part.part
 
 
+# Description: This is a thin-walled elliptical ring or oval washer with a smooth, curved perimeter and a large central opening.
 def model_31391_df3562f8_0002():
     """Model: Circular Spring"""
     with BuildPart() as part:
@@ -4263,6 +4442,7 @@ def model_31391_df3562f8_0002():
     return part.part
 
 
+# Description: This is a flat parallelogram-shaped plate or panel with a simple rectangular geometry, featuring a uniform thickness and clean edges with no holes, slots, or additional features.
 def model_31391_df3562f8_0003():
     """Model: Table"""
     with BuildPart() as part:
@@ -4282,6 +4462,7 @@ def model_31391_df3562f8_0003():
     return part.part
 
 
+# Description: This is a parallelogram-shaped flat bar or plate with a simple rectangular profile, featuring a uniform cross-section and slight 3D depth, commonly used as a structural support or connector element.
 def model_31391_df3562f8_0005():
     """Model: Steel support bands"""
     with BuildPart() as part:
@@ -4301,6 +4482,7 @@ def model_31391_df3562f8_0005():
     return part.part
 
 
+# Description: This is a horizontal roof rack cross bar with a streamlined blue/gray tubular body and black end caps, designed to mount transversely across a vehicle's roof for cargo carrying.
 def model_31464_b2855e3a_0008():
     """Model: Linkage Arm (1)"""
     with BuildPart() as part:
@@ -4326,6 +4508,7 @@ def model_31464_b2855e3a_0008():
     return part.part
 
 
+# Description: This is a cylindrical bushing or sleeve with a hollow bore through its center, featuring a rounded rectangular overall shape with smooth curved surfaces and a recessed or stepped inner diameter.
 def model_31464_b2855e3a_0014():
     """Model: Hitch Magnet (2)"""
     with BuildPart() as part:
@@ -4345,6 +4528,7 @@ def model_31464_b2855e3a_0014():
     return part.part
 
 
+# Description: This is a cylindrical connector or coupling with two coaxial bores of different diameters, featuring rounded edges and a stepped design for joining or aligning components of varying sizes.
 def model_31464_b2855e3a_0018():
     """Model: Brushing  (1) (2)"""
     with BuildPart() as part:
@@ -4364,6 +4548,7 @@ def model_31464_b2855e3a_0018():
     return part.part
 
 
+# Description: This is a wedge-shaped or tapered rectangular block with a sloped top surface, featuring a prismatic form that narrows from one end to the other, commonly used as a structural component or support element.
 def model_31596_4acd1c1d_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4383,6 +4568,7 @@ def model_31596_4acd1c1d_0000():
     return part.part
 
 
+# Description: This is a cylindrical bearing or bushing with a hollow central bore, featuring a rounded/domed top surface and a mesh-textured exterior finish.
 def model_31616_c013ae1f_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4402,6 +4588,7 @@ def model_31616_c013ae1f_0000():
     return part.part
 
 
+# Description: This is a flat washer—a simple ring-shaped fastener with a circular outer diameter, a centered hole, and a flat profile, used to distribute load and prevent surface damage under bolt heads or nuts.
 def model_31627_6b01242d_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4421,6 +4608,7 @@ def model_31627_6b01242d_0000():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) washer or spacer ring featuring a smooth, rounded torus geometry with a central circular hole and uniform thickness throughout.
 def model_31627_ec13313b_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4440,6 +4628,7 @@ def model_31627_ec13313b_0000():
     return part.part
 
 
+# Description: This is a flat, parallelogram-shaped plate or bracket with a tapered wedge profile, featuring a thin body with sloped surfaces and dark edges that suggest beveled or chamfered corners.
 def model_31652_96a3746c_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4459,6 +4648,7 @@ def model_31652_96a3746c_0000():
     return part.part
 
 
+# Description: This is a tapered cylindrical rod or pin with a straight, elongated body that gradually decreases in diameter from one end to the other, featuring a simple conical taper along its length.
 def model_31655_baca05af_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4474,6 +4664,7 @@ def model_31655_baca05af_0000():
     return part.part
 
 
+# Description: This is a parallelogram-shaped flat plate or panel with a trapezoidal profile, featuring a thin, wedge-like geometry with sloped edges and a beveled or angled side face.
 def model_31740_86dab66b_0000():
     """Model: Untitled"""
     with BuildPart() as part:
@@ -4493,6 +4684,7 @@ def model_31740_86dab66b_0000():
     return part.part
 
 
+# Description: This is a cylindrical rod or tube with a slightly tapered design, featuring rounded ends and a uniform dark gray finish.
 def model_31866_a5b1db64_0001():
     """Model: DIFFERENTIAL GEAR WHEEL"""
     with BuildPart() as part:
@@ -4512,6 +4704,7 @@ def model_31866_a5b1db64_0001():
     return part.part
 
 
+# Description: This is a toroidal or ring-shaped component with a circular cross-section, featuring a hollow center, radial ribbing or fins around its outer and inner surfaces, and a smooth, symmetrical doughnut-like geometry.
 def model_31962_e5291336_0003():
     """Model: arandela"""
     with BuildPart() as part:
@@ -4531,6 +4724,7 @@ def model_31962_e5291336_0003():
     return part.part
 
 
+# Description: This is a hexagonal or octagonal geometric solid with a large central elliptical or oval hole passing through its center, featuring alternating dark and light faceted surfaces that create a symmetrical, faceted appearance.
 def model_31962_e5291336_0011():
     """Model: DIN Tuerca"""
     with BuildPart() as part:
@@ -4555,6 +4749,7 @@ def model_31962_e5291336_0011():
     return part.part
 
 
+# Description: This is a toroidal (doughnut-shaped) ring or torus with a smooth, rounded outer profile and a central circular hole, featuring a uniform cross-section throughout its circumference.
 def model_31962_e5291336_0016():
     """Model: ten"""
     with BuildPart() as part:
@@ -4574,6 +4769,7 @@ def model_31962_e5291336_0016():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with rounded ends, featuring a simple, elongated tubular shape with hemispherical or rounded caps on both ends.
 def model_31962_e5291336_0027():
     """Model: Eje (2)"""
     with BuildPart() as part:
@@ -4589,6 +4785,7 @@ def model_31962_e5291336_0027():
     return part.part
 
 
+# Description: This is an oval or elliptical disk with a central axial hole, featuring radial fins or ribs extending outward from the center, creating a cooling or impeller-like component commonly used in thermal management or fluid dynamics applications.
 def model_31962_e5291336_0029():
     """Model: Rueda 2"""
     with BuildPart() as part:
@@ -4608,6 +4805,7 @@ def model_31962_e5291336_0029():
     return part.part
 
 
+# Description: This is a C-shaped retaining ring (snap ring) with a circular overall form, featuring two opposing open ends with small holes for installation tool access and a textured surface for grip.
 def model_31962_e5291336_0030():
     """Model: Anilla"""
     with BuildPart() as part:
@@ -4637,6 +4835,7 @@ def model_31962_e5291336_0030():
     return part.part
 
 
+# Description: This is an oval or elliptical dome/shell with a smooth curved surface featuring multiple vertical ribs or reinforcement lines running from top to bottom for structural support.
 def model_31962_e5291336_0031():
     """Model: Tents"""
     with BuildPart() as part:
@@ -4652,6 +4851,7 @@ def model_31962_e5291336_0031():
     return part.part
 
 
+# Description: This is a dark gray elongated rectangular bar with rounded ends and two symmetrical recessed slots or vents on opposite sides, featuring a smooth cylindrical profile suitable for structural or mechanical applications.
 def model_31962_e5291336_0033():
     """Model: Eje"""
     with BuildPart() as part:
@@ -4667,6 +4867,7 @@ def model_31962_e5291336_0033():
     return part.part
 
 
+# Description: This is a toroidal ring or washer with a smooth, rounded doughnut shape featuring a large central hole and textured radial surface patterns.
 def model_31962_e5291336_0036():
     """Model: Arandela (1)"""
     with BuildPart() as part:
@@ -4686,6 +4887,7 @@ def model_31962_e5291336_0036():
     return part.part
 
 
+# Description: This is a toroidal (donut-shaped) housing or connector component featuring a smooth, rounded outer surface with a central rectangular slot or opening and symmetrical curved geometry designed for fluid flow, cable routing, or assembly purposes.
 def model_31962_e5291336_0037():
     """Model: Component43"""
     with BuildPart() as part:
@@ -4705,6 +4907,7 @@ def model_31962_e5291336_0037():
     return part.part
 
 
+# Description: This is a cylindrical rod or shaft with rounded ends, featuring a simple, uniform circular cross-section and smooth, elongated geometry with no visible holes, slots, or flanges.
 def model_31962_e5291336_0038():
     """Model: eje"""
     with BuildPart() as part:
@@ -4720,6 +4923,7 @@ def model_31962_e5291336_0038():
     return part.part
 
 
+# Description: This is a C-shaped internal retaining ring (snap ring) with a circular band featuring two opposing hook ends with retention holes, designed to hold components in grooves or bores.
 def model_31962_e5291336_0051():
     """Model: DIN"""
     with BuildPart() as part:
